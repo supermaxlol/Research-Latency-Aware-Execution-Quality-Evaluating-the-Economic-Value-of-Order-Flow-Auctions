@@ -10,7 +10,7 @@
 ## 👥 Research Team
 - **Shehzad Ahmed** - Department of Finance, Independent University Bangladesh
 - **Dr. Rubaiyat Islam** - Department of Computer Science, Independent University Bangladesh  
-- **Farjana** - Department of Economics, Independent University Bangladesh
+- **Farjana** - Department of Computer Science and Engeniering, Dhaka City Collage
 
 📧 Contact: shehzad0002@gmail.com | rubaiyatislam17002sets@iub.edu.bd
 
