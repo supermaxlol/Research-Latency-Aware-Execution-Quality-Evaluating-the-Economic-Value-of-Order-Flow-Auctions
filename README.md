@@ -3,7 +3,7 @@
 
 **🚨 FIRST EMPIRICAL DOCUMENTATION - MAY 2025 🚨**
 
-![Directional Asymmetry Plot](newplot-11.png)
+![Directional Asymmetry Plot](figure4_token_pair_analysis.png)
 
 ---
 
