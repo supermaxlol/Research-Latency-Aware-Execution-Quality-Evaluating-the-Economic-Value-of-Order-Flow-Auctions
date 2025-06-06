@@ -1,9 +1,10 @@
 # **🔥 Systematic Directional Asymmetries in Order Flow Auctions**
 ## *First Evidence of CEX-DEX Latency Arbitrage and Market Structure Failures*
 
+[![Research Status](https://img.shields.io/badge/Status-Under%20Review-yellow.svg)](https://github.com/your-username/opa-directional-asymmetries)
 [![Data Period](https://img.shields.io/badge/Data%20Period-May%202025-blue.svg)](#data)
 [![Platforms](https://img.shields.io/badge/Platforms-CoWSwap%20%7C%201inch%20Fusion-green.svg)](#methodology)
-
+[![Transactions](https://img.shields.io/badge/Transactions-21%2C673-brightgreen.svg)](#data)
 
 ---
 
@@ -16,6 +17,8 @@
 - **Systematic across platforms**: CoWSwap (64.7 bps), 1inch Fusion (47.7 bps)  
 - **Persistent over time**: Strengthens from 1s (58.5 bps) to 60s (59.3 bps)
 - **Intensifies with volatility**: Expands to 99.4 bps during high volatility periods
+
+![Main Research Finding](figure3_main_directional_asymmetry.svg)
 
 ---
 
@@ -48,17 +51,32 @@ Status: UNPRECEDENTED in OFA literature
 
 ## **📊 Research Summary**
 
+### **Dataset Overview**
+![Dataset Overview](figure1_dataset_overview.svg)
+
+*Our comprehensive analysis covers 21,673 transactions from May 5-12, 2025, evenly distributed across CoWSwap (49.7%) and 1inch Fusion (50.3%), with 6,942 ETH-stablecoin pairs forming the core of our directional asymmetry analysis.*
+
 ### **Methodology Innovation**
 - ✨ **First application** of forward-looking markout analysis to DeFi OFA contexts
 - 🎯 **Novel benchmark**: Using Binance midprice for execution quality measurement  
 - ⏱️ **Multi-horizon analysis**: 1s, 10s, 60s post-execution tracking
 - 📈 **Comprehensive coverage**: 21,673 transactions across major platforms
 
+### **Cross-Platform Validation**
+![Platform Comparison](figure2_platform_comparison.svg)
+
+*Despite implementing different auction mechanisms (CoWSwap: batch auctions, 1inch Fusion: Dutch auctions), both platforms exhibit substantial directional asymmetries, demonstrating that our findings reflect fundamental market structure rather than platform-specific artifacts.*
+
 ### **Statistical Validation**
 - **t-statistics**: >17 for both directions (p < 10^-60)
 - **Win rates**: 77.6% (ETH sales) vs. 26.8% (ETH purchases)  
 - **Daily consistency**: 100% of analyzed days show significant asymmetries
 - **Cross-platform**: Consistent across different auction mechanisms
+
+### **Token Pair Analysis**
+![Token Pair Analysis](figure4_token_pair_analysis.svg)
+
+*Directional asymmetries are specific to ETH-stablecoin pairs. WETH-USDC achieves +0.235% markouts with 78.6% win rates, while USDC-WETH suffers -0.312% markouts with only 26.6% win rates. Critically, stablecoin-to-stablecoin pairs show balanced performance, serving as important control evidence.*
 
 ### **Mechanism Identification**
 ```
@@ -68,6 +86,14 @@ CEX-DEX Latency Arbitrage
 ├── Selective order filling based on CEX price movements
 └── Systematic adverse selection against retail traders
 ```
+
+---
+
+## **📈 Additional Research Visualizations**
+
+![Additional Analysis](newplot-30.png)
+
+*Comprehensive statistical analysis demonstrates clear separation between ETH→Stablecoin and Stablecoin→ETH performance distributions, confirming the systematic nature of directional asymmetries.*
 
 ---
 
@@ -143,14 +169,14 @@ seaborn>=0.12.0
 ## **🤝 Collaboration & Contact**
 
 ### **Research Team**
-- **Shehzad Ahmed** - *Department of Finance, Independent University Bangladesh*
+- **Shehzad Ahmed** (Lead) - *Department of Finance, Independent University Bangladesh*
 - **Rubaiyat Islam** - *Department of Software Engineering, Daffodil International University*  
 - **Farjana** - *Department of CSE, National University of Bangladesh*
 
 ### **Contact**
 - 📧 Primary: `shehzad0002@gmail.com`
 - 📧 Technical: `islam.swe@diu.edu.bd`
-
+- 🔗 Repository: `github.com/your-username/ofa-directional-asymmetries`
 
 ### **Media & Press**
 For media inquiries about this research breakthrough, please contact the corresponding author.
