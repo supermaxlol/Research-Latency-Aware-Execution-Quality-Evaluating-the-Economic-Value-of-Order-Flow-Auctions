@@ -169,14 +169,13 @@ seaborn>=0.12.0
 ## **🤝 Collaboration & Contact**
 
 ### **Research Team**
-- **Shehzad Ahmed** (Lead) - *Department of Finance, Independent University Bangladesh*
+- **Shehzad Ahmed** - *Department of Finance, Independent University Bangladesh*
 - **Rubaiyat Islam** - *Department of Software Engineering, Daffodil International University*  
 - **Farjana** - *Department of CSE, National University of Bangladesh*
 
 ### **Contact**
 - 📧 Primary: `shehzad0002@gmail.com`
 - 📧 Technical: `islam.swe@diu.edu.bd`
-- 🔗 Repository: `github.com/your-username/ofa-directional-asymmetries`
 
 ### **Media & Press**
 For media inquiries about this research breakthrough, please contact the corresponding author.
